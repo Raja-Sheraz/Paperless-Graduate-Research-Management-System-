@@ -1,0 +1,72 @@
+export const Students = [
+    {
+        profileImage: 'path_to_image_1.jpg',
+        name: 'John Doe',
+        rollno: '19i-0647',
+        cnic: '12345-6789012-3',
+        department: 'Computer Science',
+        fatherName: 'Michael Doe',
+        semester: '5',
+        dateOfBirth: 'any date',
+        currentAdvisor: 'Dr-Ali',
+        role: 'teacher',
+        pdfUploaded: 'YES',
+        status: 'complete'
+    },
+    {
+        profileImage: 'path_to_image_2.jpg',
+        name: 'Jane Doe',
+        rollno: '19i-0648',
+        cnic: '12345-6789012-4',
+        department: 'Computer Science',
+        fatherName: 'David Doe',
+        semester: '6',
+        dateOfBirth: 'another date',
+        currentAdvisor: 'Dr-Brown',
+        role: 'teacher',
+        pdfUploaded: 'YES',
+        status: 'pending'
+    },
+    {
+        profileImage: 'path_to_image_3.jpg',
+        name: 'Alice Smith',
+        rollno: '19i-0649',
+        cnic: '12345-6789012-5',
+        department: 'Physics',
+        fatherName: 'Bob Smith',
+        semester: '4',
+        dateOfBirth: 'yet another date',
+        currentAdvisor: 'Prof-Williams',
+        role: 'teacher',
+        pdfUploaded: 'NO',
+        status: 'not submitted'
+    },
+    {
+        profileImage: 'path_to_image_4.jpg',
+        name: 'Bob Johnson',
+        rollno: '19i-0650',
+        cnic: '12345-6789012-6',
+        department: 'Computer Science',
+        fatherName: 'Charlie Johnson',
+        semester: '7',
+        dateOfBirth: 'some date',
+        currentAdvisor: 'Dr-Miller',
+        role: 'teacher',
+        pdfUploaded: 'YES',
+        status: 'complete'
+    },
+    {
+        profileImage: 'path_to_image_5.jpg',
+        name: 'Eva Martinez',
+        rollno: '19i-0651',
+        cnic: '12345-6789012-7',
+        department: 'Mathematics',
+        fatherName: 'Daniel Martinez',
+        semester: '3',
+        dateOfBirth: 'another date',
+        currentAdvisor: 'Prof-Jones',
+        role: 'teacher',
+        pdfUploaded: 'NO',
+        status: 'pending'
+    }
+]

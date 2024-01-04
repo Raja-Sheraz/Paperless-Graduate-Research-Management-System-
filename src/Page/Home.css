@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Taviraj:wght@300&display=swap");
+
+body{
+    margin: 0;
+}
+
+.headerPic {
+  width: 100%;
+  height: 100vh;
+}
+.video-background {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inputEmail input {
+  width: 300px;
+  height: 40px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: darkgray;
+}
+.inputEmail input:focus {
+  border: 2px solid white;
+  color: white;
+}
+.inputEmail input::placeholder{
+  color:darkgray;
+}
+.inputEmail select{
+  width: 300px;
+  height: 40px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: darkgray;
+}
+.fmbtn button {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(110, 71, 34);
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 20px;
+}
+.fmbtn button:focus {
+  border: 3px solid #b00c0c;
+}
+.lg {
+  font-size: 50px;
+  color: white;
+  font-family: "Taviraj", serif;
+  margin-left: 10px;
+  letter-spacing: 20px;
+}
+.log{
+  text-align: center;
+  font-family: "Taviraj", serif;
+  letter-spacing: 6px;
+}
